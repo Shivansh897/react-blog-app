@@ -1,0 +1,75 @@
+.write{
+    padding-top: 50px;
+}
+
+.writeForm{
+  position: absolute;
+}
+
+
+.writeFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+
+.writeInput:focus{
+    outline:none;
+
+}
+.writeImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.writeText{
+    font-size: 20px;
+    height: 40vh;
+}
+
+.writeSubmit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: teal;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.writeSubmit:hover{
+    box-shadow: 5px 5px 0 #000;
+    transition: all ease 0.5s;
+}
+
+.writeFormGroup {
+    position: relative; /* Make the parent container a positioning context */
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    position: absolute;
+    bottom: -20px; /* Adjust the value to control the distance between the input and error message */
+    left: 0;
+  }
+  
+  
+ 

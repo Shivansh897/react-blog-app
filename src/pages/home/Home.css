@@ -1,0 +1,29 @@
+/* .home{
+    display: flex;
+} */
+/* Default styles for larger screens */
+.home {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .posts {
+    flex: 4;
+  }
+  
+  .sidebar {
+    flex: 1;
+  }
+  
+  /* Media query for screens with a max-width of 768px */
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+    }
+  
+    .posts,
+    .sidebar {
+      width: 100%;
+    }
+  }
+  
